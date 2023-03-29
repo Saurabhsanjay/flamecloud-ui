@@ -37,10 +37,19 @@ const LandingPage = () => {
         letterSpacing="-0.02em"
         color={" #111822"}
       >
-        We are the <span style={{ color: "#077BFF" }}>Fastest</span> and the
-        Most Reliable Proxy Service since 2020
+        We are the{" "}
+        <Text as="span" style={{ color: "#077BFF" }}>
+          Fastest
+        </Text>{" "}
+        and the
+        <Text as="span" style={{ color: "#16D113" }}>
+          {" "}
+          Most Reliable{" "}
+        </Text>
+        Proxy Service since 2020
       </Text>
       <Text
+        pt={"17px"}
         width="509px"
         height={"52px"}
         marginTop={"154px"}
@@ -57,23 +66,27 @@ const LandingPage = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus augue
         sit amet mollis molestie.
       </Text>
-      <Button
-        _hover={{ backround: "#077BFF" }}
-        color={"#FFFFFF"}
-        background={"#077BFF"}
-        display="flex"
-        flexDirection={"row"}
-        justifyContent="center"
-        alignItems={"center"}
-        padding="10px"
-        gap={"5px"}
-        width={"222px"}
-        height="47px"
-        borderRadius={"10px"}
-        border="none"
-      >
-        Get Started
-      </Button>
+      <Box pt={"26px"} pb="26px">
+        {" "}
+        <Button
+          _hover={{ backround: "#077BFF" }}
+          color={"#FFFFFF"}
+          background={"#077BFF"}
+          display="flex"
+          flexDirection={"row"}
+          justifyContent="center"
+          alignItems={"center"}
+          padding="10px"
+          gap={"5px"}
+          width={"222px"}
+          height="47px"
+          borderRadius={"10px"}
+          border="none"
+        >
+          Get Started
+        </Button>
+      </Box>
+
       <VStack
         m="auto"
         justifyContent={"center"}
@@ -124,48 +137,46 @@ const LandingPage = () => {
           Rated 4.5 on TrustPilot
         </Text>
       </VStack>
-      <Divider
-        width={"588px"}
-        height="0px"
-        top="623px"
-        border={"1px solid #D9D8D6"}
-      />
-      <SimpleGrid columns={4}>
-        <HStack
-          background={"#EEFEFD"}
-          border={"1px"}
-          width="285.54px"
-          height={"95.28px"}
-          mr="16px"
-          justifyContent="center"
-          alignItems={"center"}
-        >
-          <Box
-            mt={"26px"}
-            mb="26px"
-            mr="16px"
-            borderRadius={"8px"}
-            background={" linear-gradient(135deg, #3BC9FB 0%, #42A6FB 100%)"}
-            width={"40px"}
-            height="40px"
-          ></Box>
-          <Text
-            width="148px"
-            fontStyle={"normal"}
-            height={"44px"}
-            fontFamily="Figtree"
-            fontWeight={"400"}
-            fontSize="18px"
-            lineHeight={"22px"}
-            letterSpacing="-0.02em"
-            color={"#111822"}
-          >
-            Lorem Ipsum Dolor Sit Amet Top
-          </Text>
-        </HStack>
-        
-      </SimpleGrid>
+      <Box pt={"54px"}>
+        <Divider width={"588px"} height="0px" border={"1px solid #D9D8D6"} />
+      </Box>
 
+      <Box pt={"26.26px"} pb="138.36px">
+        <SimpleGrid columns={4}>
+          <HStack
+            background={"#EEFEFD"}
+            border={"1px"}
+            width="285.54px"
+            height={"95.28px"}
+            mr="16px"
+            justifyContent="center"
+            alignItems={"center"}
+          >
+            <Box
+              mt={"26px"}
+              mb="26px"
+              mr="16px"
+              borderRadius={"8px"}
+              background={" linear-gradient(135deg, #3BC9FB 0%, #42A6FB 100%)"}
+              width={"40px"}
+              height="40px"
+            ></Box>
+            <Text
+              width="148px"
+              fontStyle={"normal"}
+              height={"44px"}
+              fontFamily="Figtree"
+              fontWeight={"400"}
+              fontSize="18px"
+              lineHeight={"22px"}
+              letterSpacing="-0.02em"
+              color={"#111822"}
+            >
+              Lorem Ipsum Dolor Sit Amet Top
+            </Text>
+          </HStack>
+        </SimpleGrid>
+      </Box>
       <Stack
         alignItems={"center"}
         width={"full"}
