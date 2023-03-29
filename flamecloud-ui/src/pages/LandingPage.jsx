@@ -140,28 +140,30 @@ const LandingPage = () => {
           justifyContent="center"
           alignItems={"center"}
         >
-          <Image src="" />
+          <Box
+            mt={"26px"}
+            mb="26px"
+            mr="16px"
+            borderRadius={"8px"}
+            background={" linear-gradient(135deg, #3BC9FB 0%, #42A6FB 100%)"}
+            width={"40px"}
+            height="40px"
+          ></Box>
           <Text
             width="148px"
+            fontStyle={"normal"}
             height={"44px"}
             fontFamily="Figtree"
             fontWeight={"400"}
             fontSize="18px"
             lineHeight={"22px"}
             letterSpacing="-0.02em"
+            color={"#111822"}
           >
             Lorem Ipsum Dolor Sit Amet Top
           </Text>
         </HStack>
-        <Box border={"1px"} mr="16px" width="285.54px" height={"95.28px"}>
-          2
-        </Box>
-        <Box border={"1px"} mr="16px" width="285.54px" height={"95.28px"}>
-          3
-        </Box>
-        <Box border={"1px"} mr="16px" width="285.54px" height={"95.28px"}>
-          4
-        </Box>
+        
       </SimpleGrid>
 
       <Stack
@@ -185,6 +187,7 @@ const LandingPage = () => {
         >
           Why we are the Best Proxy Providers
         </Text>
+
         <Text
           mt={"115px"}
           color="#FFFFFF"
@@ -285,7 +288,7 @@ const LandingPage = () => {
           augue sit amet mollis molestie.
         </Text>
       </VStack>
-      <SimpleGrid pt={"99px"} columns="2" gap={'20px'}>
+      <SimpleGrid pt={"99px"} columns="2" gap={"20px"}>
         <VStack
           borderRadius="5px"
           height={"447px"}
@@ -680,6 +683,119 @@ const LandingPage = () => {
           </HStack>
         </VStack>
       </SimpleGrid>
+
+      <Box pt={"21px"}>
+        <SimpleGrid
+          gap={"34px"}
+          columns={3}
+          width="708px"
+          height={"142px"}
+          background="rgba(30, 30, 30, 0.01)"
+          border={"1px solid rgba(30, 30, 30, 0.1)"}
+          borderRadius="5px"
+        >
+          <Box>
+            <Box>
+              <Box ml="28px">
+                <Box
+                  mt={"26px"}
+                  borderRadius={"8px"}
+                  background={
+                    " linear-gradient(135deg, #FFDE2E 0%, #E38B08 100%)"
+                  }
+                  width={"40px"}
+                  height="40px"
+                ></Box>
+                <Text
+                  textAlign={"center"}
+                  color="#111822"
+                  width="161px"
+                  height="24px"
+                  fontFamily="Figtree"
+                  fontWeight={"600"}
+                  fontSize="20px"
+                  lineHeight={"24px"}
+                  letterSpacing="-0.02em"
+                  mt="8px"
+                >
+                  {" "}
+                  Become a Reseller
+                </Text>
+                <Text
+                  textAlign={"center"}
+                  color="#111822"
+                  width="153px"
+                  height="19px"
+                  fontFamily="Figtree"
+                  fontWeight={"400"}
+                  fontSize="16px"
+                  lineHeight={"19px"}
+                  letterSpacing="-0.02em"
+                  mt="8px"
+                  opacity={"0.5"}
+                >
+                  200+ Happy Resellers
+                </Text>
+              </Box>
+            </Box>
+          </Box>
+          <Box>
+            <Box w="100%" pt={"20px"}>
+              <Text
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="16px"
+                lineHeight={"19px"}
+                letterSpacing="-0.02em"
+                opacity={"0.5"}
+                w="98px"
+                height={"19px"}
+              >
+                Plan Includes:
+              </Text>
+              <Box
+                color={"#111822"}
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="16px"
+                lineHeight={"19px"}
+                letterSpacing="-0.02em"
+                opacity={"0.8"}
+              >
+                <Text pt="10px">Whitelabel IP Pool </Text>
+                <Text pt="8px">Whitelabel Subnets </Text>
+                <Text pt="8px">Residential Proxy </Text>
+              </Box>
+            </Box>
+          </Box>
+          <Box>
+            <Box w="100%" pt={"20px"}>
+              <Text
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="16px"
+                lineHeight={"19px"}
+                letterSpacing="-0.02em"
+                opacity={"0.5"}
+                w="98px"
+                height={"19px"}
+              ></Text>
+              <Box
+                color={"#111822"}
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="16px"
+                lineHeight={"19px"}
+                letterSpacing="-0.02em"
+                opacity={"0.8"}
+              >
+                <Text pt="10px">Custom Bandwidth </Text>
+                <Text pt="8px">Priority Support </Text>
+              </Box>
+            </Box>
+          </Box>
+        </SimpleGrid>
+      </Box>
     </Stack>
   );
 }
