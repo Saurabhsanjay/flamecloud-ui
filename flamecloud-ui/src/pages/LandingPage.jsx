@@ -1,5 +1,17 @@
-import { Avatar, Box, Button, Divider, Flex, HStack, Image, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react'
-import React from 'react'
+import {
+  Avatar,
+  Box,
+  Button,
+  Divider,
+  Flex,
+  HStack,
+  Image,
+  SimpleGrid,
+  Stack,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
+import React from "react";
 
 const LandingPage = () => {
   return (
@@ -835,7 +847,7 @@ const LandingPage = () => {
           augue sit amet mollis molestie.
         </Text>
       </Box>
-      <Box>
+      <Box pt={"34px"}>
         <SimpleGrid columns={"3"}>
           <Box
             width={"386px"}
@@ -893,7 +905,6 @@ const LandingPage = () => {
                 </Text>
                 <Text
                   ml={"10px"}
-                  
                   textAlign={"start"}
                   fontFamily="Figtree"
                   fontWeight={"400"}
@@ -902,7 +913,7 @@ const LandingPage = () => {
                   letterSpacing="-0.02em"
                   w="211px"
                   height={"19px"}
-                  opacity='0.5'
+                  opacity="0.5"
                 >
                   {" "}
                   Web Designer, CreativeProxies
@@ -912,8 +923,108 @@ const LandingPage = () => {
           </Box>
         </SimpleGrid>
       </Box>
+
+      <VStack
+        textAlign={"center"}
+        width={"1192px"}
+        height="859px"
+        background={
+          "linear-gradient(180deg, #F7FAFF 0%, rgba(255, 255, 255, 0) 100%)"
+        }
+        border=" 1px solid rgba(30, 30, 30, 0.1)"
+        borderRadius={"5px"}
+      >
+        <Box
+          pt={"65px"}
+          textAlign={"center"}
+          justifyContent="center"
+          alignItems={"center"}
+        >
+          <Text
+            textAlign={"center"}
+            fontFamily="Figtree"
+            fontWeight={"600"}
+            fontSize="36px"
+            lineHeight={"43px"}
+            letterSpacing="-0.02em"
+            w="440px"
+            height={"43px"}
+          >
+            Read our <span style={{ color: "#077BFF" }}>Exclusive</span> Blog
+          </Text>
+          <Text
+            pt={"10px"}
+            textAlign={"center"}
+            fontFamily="Figtree"
+            fontWeight={"500"}
+            fontSize="18px"
+            lineHeight={"22px"}
+            letterSpacing="-0.02em"
+            w="465px"
+            height={"44px"}
+            opacity="0.5"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
+            augue sit amet mollis molestie.
+          </Text>
+          <Box>
+            <Text
+              pt={"10px"}
+              textAlign={"center"}
+              fontFamily="Figtree"
+              fontWeight={"500"}
+              fontSize="18px"
+              lineHeight={"22px"}
+              letterSpacing="-0.02em"
+              height={"22px"}
+              color={"#077BFF"}
+            >
+              Read All Blogs{" "}
+            </Text>
+          </Box>
+        </Box>
+        <Box pt={"40px"}>
+          <SimpleGrid columns={3} gap="25px" spacing={'38px'}>
+            <Box>
+              <Box
+                background={"rgba(7, 123, 255, 0.1)"}
+                borderRadius="5px"
+                border={"1px solid rgba(7, 123, 255, 0.5)"}
+                width={"354px"}
+                height="221px"
+              ></Box>
+              <Text
+                mt={"10px"}
+                fontFamily="Figtree"
+                fontWeight={"500"}
+                fontSize="20px"
+                lineHeight={"24px"}
+                letterSpacing="-0.02em"
+                w="189px"
+                height={"24px"}
+                color="#111822"
+              >
+                Blog Title appear here
+              </Text>
+              <Text mt={'1px'}
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="16px"
+                lineHeight={"19px"}
+                letterSpacing="-0.02em"
+                opacity={"0.5"}
+                w="142px"
+                height={"19px"}
+                color="#111822"
+              >
+                Category name here
+              </Text>
+            </Box>
+          </SimpleGrid>
+        </Box>
+      </VStack>
     </Stack>
   );
-}
+};
 
-export default LandingPage
+export default LandingPage;
