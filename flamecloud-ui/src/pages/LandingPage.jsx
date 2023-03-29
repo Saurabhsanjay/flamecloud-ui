@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, HStack, Image, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react'
+import { Avatar, Box, Button, Divider, Flex, HStack, Image, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 const LandingPage = () => {
@@ -802,6 +802,111 @@ const LandingPage = () => {
               >
                 <Text pt="10px">Custom Bandwidth </Text>
                 <Text pt="8px">Priority Support </Text>
+              </Box>
+            </Box>
+          </Box>
+        </SimpleGrid>
+      </Box>
+      <Box pt={"180px"} textAlign={"center"}>
+        <Text
+          fontFamily="Figtree"
+          fontWeight={"600"}
+          fontSize="36px"
+          lineHeight={"43px"}
+          letterSpacing="-0.02em"
+          w="440px"
+          height={"43px"}
+        >
+          Customers <span style={{ color: "#16D113" }}>Love</span> our Proxies
+        </Text>
+        <Text
+          pt={"10px"}
+          textAlign={"center"}
+          fontFamily="Figtree"
+          fontWeight={"500"}
+          fontSize="18px"
+          lineHeight={"22px"}
+          letterSpacing="-0.02em"
+          w="465px"
+          height={"44px"}
+          opacity="0.5"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
+          augue sit amet mollis molestie.
+        </Text>
+      </Box>
+      <Box>
+        <SimpleGrid columns={"3"}>
+          <Box
+            width={"386px"}
+            height="248px"
+            background={"rgba(30, 30, 30, 0.01)"}
+            border="1px solid rgba(22, 209, 19, 0.5)"
+            borderRadius={"5px"}
+          >
+            <Box mt={"29px"} ml="25px">
+              SSSSS
+            </Box>
+            <Box>
+              <Text
+                ml={"25px"}
+                mr="26px"
+                mt={"19px"}
+                textAlign={"start"}
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="18px"
+                lineHeight={"22px"}
+                letterSpacing="-0.02em"
+                w="335px"
+                height={"88px"}
+                opacity="0.8"
+              >
+                “Integer facilisis metus magna, non eleifend est ultricies sit
+                amet. Aliquam vehicula, orci non hendrerit pretium, nibh ante
+                auctor velit, quis convallis tor et tellus.”
+              </Text>
+            </Box>
+            <Box display={"flex"}>
+              <Avatar
+                ml={"25px"}
+                mt="12px"
+                width={"48px"}
+                height="48px"
+                name="Dan Abrahmov"
+                src="https://bit.ly/dan-abramov"
+              />
+              <Box>
+                <Text
+                  ml={"10px"}
+                  mt={"17px"}
+                  textAlign={"start"}
+                  fontFamily="Figtree"
+                  fontWeight={"500"}
+                  fontSize="18px"
+                  lineHeight={"22px"}
+                  letterSpacing="-0.02em"
+                  w="102px"
+                  height={"22px"}
+                >
+                  ECHO DZNS
+                </Text>
+                <Text
+                  ml={"10px"}
+                  
+                  textAlign={"start"}
+                  fontFamily="Figtree"
+                  fontWeight={"400"}
+                  fontSize="16px"
+                  lineHeight={"19px"}
+                  letterSpacing="-0.02em"
+                  w="211px"
+                  height={"19px"}
+                  opacity='0.5'
+                >
+                  {" "}
+                  Web Designer, CreativeProxies
+                </Text>
               </Box>
             </Box>
           </Box>
