@@ -163,6 +163,128 @@ const LandingPage = () => {
           4
         </Box>
       </SimpleGrid>
+
+      <Stack
+        alignItems={"center"}
+        width={"full"}
+        height="703px"
+        background={"#0566D4"}
+        textAlign={"center"}
+      >
+        <Text
+          mt={"115px"}
+          color="#FFFFFF"
+          width="578px"
+          height="43px"
+          fontFamily="Figtree"
+          fontWeight={"600"}
+          fontSize="36px"
+          lineHeight={"43px"}
+          letterSpacing="-0.02em"
+          textAlign={"center"}
+        >
+          Why we are the Best Proxy Providers
+        </Text>
+        <Text
+          mt={"115px"}
+          color="#FFFFFF"
+          width="465px"
+          height="44px"
+          fontFamily="Figtree"
+          fontWeight={"500"}
+          fontSize="18px"
+          lineHeight={"22px"}
+          letterSpacing="-0.02em"
+          textAlign={"center"}
+          opacity="0.5"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
+          augue sit amet mollis molestie.
+        </Text>
+        <SimpleGrid columns={4}>
+          <Box
+            boxSizing="border-box"
+            display={"flex"}
+            flexDirection="column"
+            border=" 1px solid rgba(255, 255, 255, 0.25)"
+            background={"rgba(255, 255, 255, 0.03)"}
+            borderRadius="5px"
+            width="286px"
+            height={"160px"}
+            mr="16px"
+            justifyContent="flex-start"
+            alignItems={"start"}
+          >
+            {" "}
+            <Box ml={"25px"} mt="32px">
+              <Text
+                textAlign={"start"}
+                color="#FFFFFF"
+                width="111px"
+                height="24px"
+                fontFamily="Figtree"
+                fontWeight={"600"}
+                fontSize="14px"
+                lineHeight={"24px"}
+                letterSpacing="-0.02em"
+              >
+                Feature No 1
+              </Text>
+            </Box>
+            <Box ml={"25px"}>
+              <Text
+                textAlign={"start"}
+                color="#FFFFFF"
+                width="236px"
+                height="51px"
+                fontFamily="Figtree"
+                fontWeight={"400"}
+                fontSize="14px"
+                lineHeight={"17px"}
+                letterSpacing="-0.02em"
+                opacity="0.5"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ultricies interdum eros non suscipit.
+              </Text>
+            </Box>
+          </Box>
+        </SimpleGrid>
+      </Stack>
+
+      <VStack pt="177px">
+        <Text
+          textAlign={"center"}
+          color="#111822"
+          width="373px"
+          height="43px"
+          fontFamily="Figtree"
+          fontWeight={"600"}
+          fontSize="36px"
+          lineHeight={"43px"}
+          letterSpacing="-0.02em"
+        >
+          You choose,{" "}
+          <Text as={"span"} color={"#077BFF"}>
+            we Deliver!
+          </Text>
+        </Text>
+        <Text
+          textAlign={"center"}
+          color="#111822"
+          width="465px"
+          height="44px"
+          fontFamily="Figtree"
+          fontWeight={"500"}
+          fontSize="18px"
+          lineHeight={"22px"}
+          letterSpacing="-0.02em"
+          opacity={'0.5'}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
+          augue sit amet mollis molestie.
+        </Text>
+      </VStack>
     </Stack>
   );
 }
