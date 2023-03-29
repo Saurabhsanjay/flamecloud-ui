@@ -176,7 +176,7 @@ const LandingPage = () => {
 
       <Box pt={"26.26px"} pb={{ base: "60px", md: "138.36px" }}>
         <SimpleGrid
-          columns={{ base: 2, sm: 2, md: 4 }}
+          columns={{ base: 2, sm: 2, md: 2,lg:4 }}
           gap={{ base: "10px", sm: "16.16px" }}
         >
           {loremipsum?.map((el) => (
@@ -935,7 +935,7 @@ const LandingPage = () => {
         </Text>
       </Box>
       <Box pt={"34px"}>
-        <SimpleGrid columns={{ base: 1, md: 3 }} gap="17px">
+        <SimpleGrid columns={{ base: 1, md: 2,lg:3 }} gap="17px">
           {CustomerLoveOurPRoxies?.map((el) => (
             <Box
               width={"386px"}
@@ -1076,7 +1076,7 @@ const LandingPage = () => {
           </Box>
           <Box pt={"40px"}>
             <SimpleGrid
-              columns={{ base: 2, md: 3, lg: 3 }}
+              columns={{ base: 2, md: 2, lg: 3 }}
               gap={{ base: "10px", md: "50px" }}
               spacing={{ base: "10px", md: "38px" }}
             >
@@ -1122,6 +1122,7 @@ const LandingPage = () => {
           </Box>
         </VStack>
       </Box>
+      
     </Stack>
   );
 };
