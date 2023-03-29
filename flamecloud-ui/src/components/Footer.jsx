@@ -1,20 +1,21 @@
-import { Box, Button, Divider, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Flex, HStack, Image, SimpleGrid, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import logo from '../assets/svg/logo.svg'
 import discord from "../assets/svg/discord.svg";
 const Footer = () => {
   return (
     <>
+      <Box pt="120px"></Box>
       <Divider
-        pt="120px"
+        textAlign={"center"}
         width={"1192px"}
         height="0px"
         border={"1px solid #D9D8D6"}
       />
 
-      <Flex mt="34px" flexDir={{base:"column",lg:"row"}} >
-        <Box mr={"100px"} ml={{base:"30px",sm:"30px",md:"130px"}} >
-          <Box display={"flex"} >
+      <Flex pt="34px" flexDir={{ base: "column", lg: "row" }}>
+        <Box mr={"100px"} ml={{ base: "30px", sm: "30px", md: "130px" }}>
+          <Box display={"flex"}>
             <Image src={logo} />
             <Text
               color="#111822"
@@ -89,9 +90,16 @@ const Footer = () => {
                 {" "}
                 Explore{" "}
               </Text>
-              <Text opacity={"0.75"}  mt={"13px"}>Proxy Location Checker </Text>
-              <Text  opacity={"0.75"} mt={"13px"}> IPv6 Comptability</Text>
-              <Text opacity={"0.75"}  mt={"13px"}>Blogs </Text>
+              <Text opacity={"0.75"} mt={"13px"}>
+                Proxy Location Checker{" "}
+              </Text>
+              <Text opacity={"0.75"} mt={"13px"}>
+                {" "}
+                IPv6 Comptability
+              </Text>
+              <Text opacity={"0.75"} mt={"13px"}>
+                Blogs{" "}
+              </Text>
             </Box>
             <Box
               color="#111822"
