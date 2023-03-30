@@ -25,6 +25,7 @@ import icon from '../assets/svg/Icon.svg'
 import tick from '../assets/svg/tick.svg'
 import avatar from "../assets/svg/Ellipse1.svg";
 import star from "../assets/svg/Star1.svg";
+import star1 from "../assets/svg/Shape.svg";
 const LandingPage = () => {
   return (
     <Stack
@@ -121,7 +122,10 @@ const LandingPage = () => {
       >
         <HStack>
           <Box width={"28.31px"} height="28.31px" background={"#00B67A"}>
-            S
+            <Image ml={"2px"} mr={"2px"} src={star1} />
+          </Box>
+          <Box width={"28.31px"} height="28.31px" background={"#00B67A"}>
+            <Image ml={"2px"} mr={"2px"} src={star1} />
           </Box>
           <Box
             width={"28.31px"}
@@ -129,7 +133,7 @@ const LandingPage = () => {
             background={"#00B67A"}
             mt="16px"
           >
-            S
+            <Image ml={"2px"} mr={"2px"} src={star1} />
           </Box>
           <Box
             width={"28.31px"}
@@ -137,7 +141,7 @@ const LandingPage = () => {
             background={"#00B67A"}
             mt="16px"
           >
-            S
+            <Image ml={"2px"} mr={"2px"} src={star1} />
           </Box>
           <Box
             width={"28.31px"}
@@ -145,7 +149,7 @@ const LandingPage = () => {
             background={"#00B67A"}
             mt="16px"
           >
-            S
+            <Image ml={"2px"} mr={"2px"} src={star1} />
           </Box>
         </HStack>
         <Box
